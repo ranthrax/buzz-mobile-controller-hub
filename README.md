@@ -310,4 +310,4 @@ The application itself can be run locally without depending on the AI Studio dev
 
 ## License
 
-[Standard MIT License](https://choosealicense.com/licenses/mit/)
+[Standard MIT License](https://github.com/ranthrax/buzz-mobile-controller-hub/blob/main/LICENSE)
