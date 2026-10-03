@@ -40,7 +40,35 @@ Button presses are transmitted from the phones to the host computer using WebSoc
 * PCSX2 - available [here](https://pcsx2.net/)
 * Your own BUZZ! PS2 .iso
 
-## Installation
+
+# SIMPLE GUIDE for normal people
+
+Download the ZIP file from the green $${\\color{green}<> \\space Code}$$ drop-down menu.
+
+Extract to your preferred location.
+
+## Connecting Phones
+
+The Controller Hub automatically detects available network interfaces and displays the addresses that phones can use to connect.
+
+1. Start the Controller Hub on the PC with `Start_Buzz_Controller_Hub.bat`
+2. Connect the phones and PC to the same Wi-Fi network or hotspot.
+3. Open the Controller Hub on the PC.
+4. Use the QR code displayed by the application.
+5. Open the controller page on each phone.
+6. Assign each phone a player slot.
+
+## Linking to PCSX2
+
+1. Download `python buzz_pcsx2_bridge.py` from the web app
+2. Place the .py script into the project's directory
+3. If running for the first time, open `install_drivers_and_launch_python_script.bat:`
+4. You will need to manually bind the keys for each phone controller in PCSX2 under Controller Ports or USB Ports (Select Buzz Controller)
+5. Start the game in PCSX2.
+
+The Controller Hub automatically detects available network interfaces and displays the addresses that phones can use to connect.
+
+## Installation for Freaks
 
 Clone the repository:
 
@@ -93,30 +121,6 @@ Running this file will:
 5. Open the PC dashboard in your browser.
 
 Keep the terminal window open while playing.
-
-# SIMPLE GUIDE
-
-## Connecting Phones
-
-The Controller Hub automatically detects available network interfaces and displays the addresses that phones can use to connect.
-
-1. Start the Controller Hub on the PC with `Start_Buzz_Controller_Hub.bat`
-2. Connect the phones and PC to the same Wi-Fi network or hotspot.
-3. Open the Controller Hub on the PC.
-4. Use the QR code displayed by the application.
-5. Open the controller page on each phone.
-6. Assign each phone a player slot.
-
-## Linking to PCSX2
-
-1. Download `python buzz_pcsx2_bridge.py` from the web app
-2. Place the .py script into the project's directory
-3. If running for the first time, open `install_drivers_and_launch_python_script.bat:`
-4. You will need to manually bind the keys for each phone controller in PCSX2 under Controller Ports or USB Ports (Select Buzz Controller)
-5. Start the game in PCSX2.
-
-The Controller Hub automatically detects available network interfaces and displays the addresses that phones can use to connect.
-
 
 ## How It Works
 
