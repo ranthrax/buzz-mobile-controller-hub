@@ -1,0 +1,6 @@
+{
+  "name": "BUZZ! Multi-Phone USB Controller Hub",
+  "description": "Multi-phone web controller supporting up to 8 players modeled after the BUZZ! game buzzer, featuring real-time WebSockets and virtual gamepad USB HID bridge for PCSX2.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
