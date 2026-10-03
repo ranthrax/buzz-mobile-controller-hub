@@ -94,7 +94,7 @@ Running this file will:
 
 Keep the terminal window open while playing.
 
-#SIMPLE GUIDE
+# SIMPLE GUIDE
 
 ## Connecting Phones
 
@@ -294,8 +294,8 @@ Windows Firewall may need to allow Node.js to accept connections on the local ne
 
 This application is intended primarily for use on a trusted local network.
 It is **not designed to be exposed directly to the public Internet**.
-I made this just for me and my friends to get drunk and play Buzz! on a laptop
 
+I made this just for me and my friends to get drunk and play Buzz! on a laptop.
 This project was mostly created with Google AI Studio as I have GCSE level programming skills.
 The application itself can be run locally without depending on the AI Studio development environment.
 
@@ -310,3 +310,4 @@ The application itself can be run locally without depending on the AI Studio dev
 
 ## License
 
+[Standard MIT License](https://choosealicense.com/licenses/mit/)
